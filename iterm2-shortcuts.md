@@ -288,3 +288,15 @@ plutil -convert xml1 /Applications/iTerm.app/Contents/Resources/PresetKeyMapping
 | `Opt+←/→` | ESC seq `b` / `f` |
 | `Shift+Home/End` | `[H` / `[F` |
 | `Ctrl+Home/End` | 滚动到顶部/底部 |
+
+---
+
+## 七、自定义键映射（本机手动添加）
+
+**配置位置：** `Settings → Keys → Key Bindings → +`
+**作用范围：** Apply to all sessions
+
+| 快捷键 | Action | 发送内容 | 效果 |
+|--------|--------|----------|------|
+| `Opt+←` | Send Escape Sequence | `b` | 向左移动一个词 |
+| `Opt+→` | Send Escape Sequence | `f` | 向右移动一个词 |
